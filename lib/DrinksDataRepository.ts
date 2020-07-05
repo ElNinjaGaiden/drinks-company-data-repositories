@@ -5,7 +5,13 @@ export default class DrinksDataRepository implements IDrinksDataRepository {
 	getDrinks() : Promise<Drink[]> {
 		return Promise.resolve([
 			{
-				name: 'Nice drink name here',
+				name: 'Cola Cola',
+			},
+			{
+				name: 'Fantax',
+			},
+			{
+				name: '77Up',
 			},
 		]);
 	}
