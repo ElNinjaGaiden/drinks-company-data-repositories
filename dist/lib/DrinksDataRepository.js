@@ -6,7 +6,13 @@ var DrinksDataRepository = /** @class */ (function () {
     DrinksDataRepository.prototype.getDrinks = function () {
         return Promise.resolve([
             {
-                name: 'Nice drink name here',
+                name: 'Cola Cola',
+            },
+            {
+                name: 'Fantax',
+            },
+            {
+                name: '77Up',
             },
         ]);
     };
